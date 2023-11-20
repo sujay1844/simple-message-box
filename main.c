@@ -120,7 +120,7 @@ void search_messages(const MessageBox* mbox) {
 	regfree(&regex);
 }
 
-// Function to 
+// Function to filter messages by username
 void filter_messages_by_username(const MessageBox* mbox, const char* username) {
 	Message* temp = mbox->head;
 	while (temp != NULL) {

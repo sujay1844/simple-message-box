@@ -1,0 +1,85 @@
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 1
+Enter your username: yash
+Enter your message (max 255 characters): ey bro
+Message sent at Mon Nov 20 15:02:46 2023
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 1
+Enter your username: torke
+Enter your message (max 255 characters): hello bro
+Message sent at Mon Nov 20 15:02:55 2023
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 2
+Username: yash
+Time: Mon Nov 20 15:02:46 2023
+Message: ey bro
+
+Username: torke
+Time: Mon Nov 20 15:02:55 2023
+Message: hello bro
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 3
+Enter regex pattern to search for: ^hello.*$
+Time: Mon Nov 20 15:02:55 2023
+Message: hello bro
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 3
+Enter regex pattern to search for: bro
+Time: Mon Nov 20 15:02:46 2023
+Message: ey bro
+
+Time: Mon Nov 20 15:02:55 2023
+Message: hello bro
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 4
+Enter username to filter by: torke
+Username: torke
+Time: Mon Nov 20 15:02:55 2023
+Message: hello bro
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 4
+Enter username to filter by: yash
+Username: yash
+Time: Mon Nov 20 15:02:46 2023
+Message: ey bro
+
+1. Send a message
+2. Display all messages
+3. Search messages by regex
+4. Filter messages by username
+0. Exit
+Choose an option: 0
